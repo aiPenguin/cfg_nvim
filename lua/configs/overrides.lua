@@ -81,6 +81,10 @@ M.telescope = {
 }
 
 M.gitsigns = {
+  -- enable staged signs
+  _signs_staged_enable = true,
+
+  -- set keymaps
   on_attach = function(bufnr)
     local gitsigns = package.loaded.gitsigns
     local function opts(desc)
