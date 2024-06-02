@@ -24,7 +24,6 @@ end, { desc = "Fold Expr fold" })
 map("n", "<leader>fp", "<cmd> Telescope projects <CR>", { desc = "Telescope Find projects" })
 map("n", "<leader>d", "<cmd> Telescope diagnostics <CR>", { desc = "Telescope Show diagnostics" })
 map("n", "<leader>fo", "<cmd> Telescope oldfiles only_cwd=ture <CR>", { desc = "Telescope Find oldfiles in cwd" })
-map("n", "<leader>ft", "<cmd> Telescope terms <CR>", { desc = "Telescope Find hidden term" })
 
 -- todo-comments
 map("n", "<leader>m", "<cmd> TodoTelescope <CR>", { desc = "Telescope Find TODOs" })
