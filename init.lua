@@ -37,3 +37,6 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+vim.opt.foldmethod = "indent"
+vim.opt.foldlevelstart = 99
